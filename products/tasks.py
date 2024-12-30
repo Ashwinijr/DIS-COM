@@ -32,8 +32,8 @@ def background_scrapper():
 
             if record.price != pc: 
                 server = smtplib.SMTP_SSL("smtp.gmail.com",465)
-                server.login("omkargadute@gmail.com","#")
-                server.sendmail("omkargadute@gmail.com",user_email,"Price of your saved product is changed, please check.")   
+                server.login("ashwinijr.11@gmail.com","#")
+                server.sendmail("ashwinijr.11@gmail.com",user_email,"Price of your saved product is changed, please check.")   
 
                 server.quit()
 
@@ -49,8 +49,8 @@ def background_scrapper():
 
             if record.price != pc: 
                 server = smtplib.SMTP_SSL("smtp.gmail.com",465)
-                server.login("omkargadute@gmail.com","#")
-                server.sendmail("omkargadute@gmail.com",user_email,"Price of your saved product is changed, please check.")   
+                server.login("ashwinijr.11@gmail.com","#")
+                server.sendmail("ashwinijr.11@gmail.com",user_email,"Price of your saved product is changed, please check.")   
 
                 server.quit()
 
